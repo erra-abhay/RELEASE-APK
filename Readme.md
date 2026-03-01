@@ -152,6 +152,156 @@ If you encounter problems, please open an issue and include:
 
 ---
 
+---
+
+# Application Usage Guide
+
+This section provides complete instructions for registering, securing, and using the CampusCoin mobile application after installation.
+
+---
+
+## 1. Account Registration
+
+When opening the application for the first time, you must create a new account.
+
+### Steps to Register
+
+1. Select **Create Account**.
+2. Enter your institutional email address.
+
+   Examples:
+   - B23CN082@kitsw.ac.in  
+   - b23cn082@kitsw.ac.in  
+
+3. Enter your **Student ID**.
+
+   Example:
+   - B23CN081  
+
+4. Create a password that satisfies the following requirements:
+
+   - Minimum 8 characters
+   - At least one uppercase letter
+   - At least one lowercase letter
+   - At least one numeric digit
+   - At least one special character
+
+5. Select **Create Account** to complete registration.
+
+If all information is valid and the backend system is accessible, your account will be created successfully.
+
+---
+
+## 2. Setting Up Your 6-Digit Security PIN
+
+After successful registration, you are required to configure a 6-digit numeric PIN.
+
+This PIN serves as an additional security layer for accessing your wallet.
+
+### Important
+
+- The PIN must contain exactly 6 digits.
+- The PIN is required every time the application is closed and reopened.
+- Without entering the correct PIN, access to the wallet will not be granted.
+
+---
+
+## 3. Home Dashboard Overview
+
+After authentication via PIN, the dashboard displays:
+
+- Your current CampusCoin balance
+- Quick access options:
+  - Send
+  - My QR
+  - History
+- Recent transaction summary (if available)
+
+This dashboard provides access to all primary wallet functions.
+
+---
+
+## 4. Sending CampusCoin Tokens
+
+To transfer tokens to another registered user:
+
+1. Select **Send** from the dashboard.
+2. Enter the recipient’s Student ID  
+   (The Student ID used during their account registration)
+
+   OR
+
+   Use the QR scan feature to scan the recipient’s QR code.
+
+3. Enter the number of CampusCoin (CC) tokens to transfer.
+4. Confirm the transaction.
+
+### Transaction Conditions
+
+The transaction will be successful if:
+
+- The recipient account exists in the system.
+- You have sufficient token balance.
+- Backend and blockchain services are available.
+
+The system will display an error if:
+
+- The recipient does not exist.
+- The token balance is insufficient.
+- The backend or network is unavailable.
+
+All successful transactions are recorded on the Hyperledger Fabric ledger.
+
+---
+
+## 5. My QR Code
+
+The **My QR** section displays your unique QR code.
+
+Other users can scan this QR code to automatically populate your Student ID when sending tokens.
+
+This feature reduces manual entry errors during transfers.
+
+---
+
+## 6. Transaction History
+
+The **History** section provides a complete record of your transactions, including:
+
+- Sent transactions
+- Received transactions
+- Minted tokens (if applicable)
+- Transaction status (Success or Failed)
+- Date and time of each transaction
+
+All records are retrieved from the blockchain ledger.
+
+---
+
+## 7. Profile Information
+
+The Profile section allows you to view:
+
+- Registered Student ID
+- Email address
+- Assigned role (Admin or Student)
+- Account status
+
+You may also log out from this section.
+
+---
+
+## 8. Security and Access Behavior
+
+- A 6-digit PIN is required each time the application is reopened.
+- Credentials and PIN must not be shared.
+- Transactions require active backend and blockchain connectivity.
+- If network services are unavailable, transactions cannot be processed.
+
+---
+
+This completes the operational guide for the CampusCoin mobile application.
+
 ## License and Usage
 
 This application is distributed for educational and institutional use.
