@@ -1,27 +1,104 @@
-# HLF CampusCoin – APK Release
+# HLF CampusCoin – Official Android APK Distribution
 
 HLF CampusCoin is a blockchain-based campus digital currency system built on Hyperledger Fabric using ERC-20 chaincode.
 
-This repository contains official Android APK release builds only.  
-No source code is included in this repository.
+This repository is used strictly for distributing official Android APK builds of the application.
+
+No source code (Android, backend, or chaincode) is included in this repository.
 
 ---
 
-## Overview
+## Purpose of This Repository
 
-CampusCoin is a permissioned blockchain token system designed for educational institutions. It enables controlled minting, burning, and transfer of digital tokens within a campus ecosystem.
+This repository exists only to:
 
-The system is built on a Hyperledger Fabric network with ERC-20 compatible chaincode and a backend API layer connecting the mobile application to the blockchain.
+- Publish official APK release files
+- Provide installation instructions
+- Share version information
+- Allow users to download verified builds
+
+If you are looking for source code, it is private and not available in this repository.
 
 ---
 
-## Features
+## How to Download the APK
+
+Please follow these steps carefully:
+
+1. Open this repository in your browser.
+2. At the top of the repository page, click on the **"Releases"** section.
+   - On GitHub, this is typically located on the right side panel or near the top navigation.
+3. Click on the latest release version.
+4. Under the **Assets** section of that release, you will see the APK file:
+   
+   Example:
+   ```
+   HLF-CampusCoin-v1.0.0.apk
+   ```
+
+5. Click on the APK file name to download it.
+6. Wait for the download to complete.
+
+Only download APK files from the official Releases section of this repository.
+
+---
+
+## How to Install the APK on Android
+
+After downloading the APK file:
+
+### Step 1: Locate the File
+- Open your device's **File Manager**
+- Go to the **Downloads** folder
+- Tap on the downloaded APK file
+
+### Step 2: Allow Installation (If Prompted)
+If this is your first time installing an APK manually, Android may block the installation.
+
+You will see a message such as:
+"Installation blocked" or "Install unknown apps not allowed"
+
+To fix this:
+
+1. Tap **Settings** in the popup
+2. Enable **Allow from this source**
+3. Return to the APK file
+4. Tap Install again
+
+### Step 3: Install
+- Tap **Install**
+- Wait for the installation to complete
+- Tap **Open** to launch the app
+
+---
+
+## Minimum Requirements
+
+- Android 8.0 (Oreo) or higher recommended
+- Internet connectivity
+- Access to the configured backend server
+
+---
+
+## Important Note About Backend and Blockchain
+
+This mobile application requires:
+
+- A running Hyperledger Fabric network
+- Backend API server connected to the Fabric network
+- Proper user credentials
+
+If the backend or blockchain network is not running, the application will not function.
+
+---
+
+## Application Roles
 
 ### Admin
 - Mint tokens
 - Burn tokens
-- View all transactions
-- Manage student accounts
+- View transactions
+- Manage users
 
 ### Student
 - View token balance
@@ -32,91 +109,51 @@ All transactions are recorded on the Hyperledger Fabric ledger.
 
 ---
 
-## APK Download
+## Versioning
 
-Download the latest version from the Releases section of this repository:
+Each release follows this format:
 
+```
 HLF-CampusCoin-vX.X.X.apk
+```
 
-Only download APK files from the official Releases page.
-
----
-
-## Installation Instructions
-
-1. Download the APK file from Releases.
-2. Open the file on your Android device.
-3. Enable installation from unknown sources if prompted.
-4. Install the application.
-5. Open the app and log in with valid credentials.
-
-Recommended Android version: 8.0 (Oreo) or higher.
+Always install the latest stable version unless instructed otherwise.
 
 ---
 
-## System Requirements
+## Security and Authenticity
 
-The application requires:
-
-- A running Hyperledger Fabric network
-- Backend API server connected to the Fabric network
-- Internet or campus network connectivity
-
-The application will not function without backend and blockchain connectivity.
+- Only download APK files from the official Releases section.
+- Do not install files shared through unofficial channels.
+- Verify release version before installation.
 
 ---
 
-## Technology Stack
-
-- Hyperledger Fabric
-- ERC-20 Chaincode
-- Fabric Gateway / REST Backend
-- Android Application
-- JWT-based authentication
-- Role-based access control
-
----
-
-## Security Notice
-
-These APK files are official compiled builds.
-
-- Do not download from unofficial sources.
-- Verify release versions before installation.
-- Check provided checksums if available.
-
----
-
-## Source Code Policy
-
-This repository includes:
-
-- Compiled Android APK files
-
-This repository does not include:
+## What This Repository Does Not Contain
 
 - Android source code
 - Backend source code
 - Chaincode source code
+- Deployment scripts
 
-All source code is private.
+This repository distributes compiled APK builds only.
 
 ---
 
-## Issue Reporting
+## Reporting Issues
 
-If you encounter issues, please open an issue including:
+If you encounter problems, please open an issue and include:
 
 - Device model
 - Android version
-- App version
-- Steps to reproduce
-- Relevant screenshots (if applicable)
+- App version (from installed app)
+- Steps to reproduce the issue
+- Screenshots (if possible)
 
 ---
 
-## License
+## License and Usage
 
-This APK is released for educational and institutional demonstration purposes only.
+This application is distributed for educational and institutional use.
 
 Unauthorized redistribution, reverse engineering, or modification is not permitted.
